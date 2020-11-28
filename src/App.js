@@ -6,7 +6,7 @@ function App() {
   let [count, setCount] = useState(0);
   let [isMorning, setMorning] = useState(true);
   return (
-    <div className={`box ${isMorning ? 'dayLight' : ''}`}>
+    <div className={`box ${isMorning ? 'dayLight' : 'nightLight'}`}>
 
   <h1>Good {isMorning ? "Morning" : "Night"}</h1>
 
